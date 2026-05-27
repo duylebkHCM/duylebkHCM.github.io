@@ -55,7 +55,7 @@ cv:
         position: Senior AI Engineer
         location: Ho Chi Minh City, Vietnam
         start_date: 2024-04
-        end_date: 2025-06
+        end_date: ""
         summary: Led OCR projects for major insurance and banking clients. Core R&D member researching document understanding and generative modeling.
         highlights:
           - Lead OCR projects for major insurance and banking clients, designing end-to-end systems with multiple models.
