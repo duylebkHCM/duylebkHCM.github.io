@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://viettelai.vn/'>Viettel AI</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: my_avt.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,17 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an AI researcher and engineer from Vietnam, currently working at the intersection of **generative modeling, multimodal AI, and controllable visual generation**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research journey began with **visual text intelligence**, especially OCR, handwriting recognition, and mathematical expression recognition. These problems taught me how difficult it is for AI systems to understand fine-grained visual patterns, spatial structure, and content constraints. More recently, my work has shifted toward generative modeling. In my latest research, I study one-shot handwriting generation with diffusion models, focusing on how to capture complex writer styles from a single reference image while preserving textual content and local visual details.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond academic research, I have spent several years building AI systems in industry. At Viettel AI, I have worked on OCR, eKYC, document processing, handwriting-related problems, information extraction, and generative data synthesis for real-world applications. This experience has shaped my research style: I care not only about proposing new models, but also about building systems that are robust, scalable, and useful in practice.
+
+I am now interested in broader questions in **compositional and controllable generative AI**. How can generative models compose multiple constraints at inference time? How can style, content, structure, and realism be represented modularly? How can diffusion models, energy-based models, and multimodal representations be combined to build more flexible generative systems?
+
+My long-term goal is to contribute to the next generation of generative AI systems: models that are not only high-quality, but also controllable, interpretable, efficient, and useful across real-world domains.

@@ -1,189 +1,209 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Le Anh Duy
+  label: AI Researcher & Engineer
+  email: leanhduy497@gmail.com
+  phone: "(+84) 349749495"
+  location: Ho Chi Minh City, Vietnam
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    AI researcher and engineer working at the intersection of generative modeling,
+    multimodal AI, and controllable visual generation. Research spans visual text
+    intelligence, OCR, handwriting recognition, mathematical expression recognition,
+    and one-shot handwriting generation using diffusion models.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: duylebkHCM
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: duylebkhcm
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: VNU-HCM University of Technology
+        location: Ho Chi Minh City, Vietnam
+        area: Computer Science
+        studyType: Master of Computer Science
+        start_date: 2021-08
+        end_date: 2023-11
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Cumulative GPA: 8.29/10.00"
+          - "Thesis: A system for extracting mathematical expressions from document images"
+          - "Thesis Grade: 9.94/10.00"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: VNU-HCM University of Technology
+        location: Ho Chi Minh City, Vietnam
+        area: Computer Science
+        studyType: Engineer of Computer Science
+        start_date: 2017-08
+        end_date: 2021-11
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Cumulative GPA: 8.67/10.00"
+          - "Thesis: A study on a diagnosis system for Eye diseases"
+          - "Thesis Grade: 9.62/10.00"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Drimco AI
+        position: AI Engineer
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2025-07
+        end_date: ""
+        summary: Build document AI workflows for technical document processing, including core document structure and layout analysis models.
         highlights:
-          - Relativity
-          - Description 2.
+          - "Language/Framework: Python, PyTorch, FastAPI, Docker"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Viettel AI
+        position: Senior AI Engineer
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2024-04
+        end_date: 2025-06
+        summary: Led OCR projects for major insurance and banking clients. Core R&D member researching document understanding and generative modeling.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Lead OCR projects for major insurance and banking clients, designing end-to-end systems with multiple models.
+          - Core R&D member researching document understanding and generative modeling, publishing at WACV and ICDAR.
+          - Mentor junior engineers on research methodology, experiment design, and engineering best practices.
+          - Drive technical decisions on model architecture and system design.
+          - "Language/Framework: Python, PyTorch, FastAPI, Huggingface Transformer, Docker, CI/CD, Latex"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Viettel AI
+        position: Junior AI Engineer
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2021-10
+        end_date: 2024-03
+        summary: Developed OCR/eKYC systems for government and business clients.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Participated in developing OCR/EKYC systems to automate information extraction from various document types.
+          - Researched and applied SOTA architectures for text recognition, information extraction, and layout analysis.
+          - "Language/Framework: Python, PyTorch, Docker"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: ARI Technology Joint Stock Company
+        position: Junior AI Engineer
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2020-08
+        end_date: 2021-03
+        summary: Built AI systems for customers including face recognition, object detection, and AI chatbot.
+        highlights:
+          - "Language/Framework: Python, PyTorch, RaSa, Flask"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: BK Artificial Intelligence Club
+        position: Member of Academy Team
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2019-11
+        end_date: 2020-11
+        summary: Organized seminars and workshops on Machine Learning and Deep Learning topics.
+
+      - company: "Faculty of Computer Science & Engineering, HCMUT"
+        position: Teacher Assistant
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2019-08
+        end_date: 2019-12
+        summary: Supported the lecturer in giving exam questions in Data Structure and Algorithm course.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "CONSTANT: Towards High-Quality One-Shot Handwriting Generation with Patch Contrastive Enhancement and Style-Aware Quantization"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Anh-Duy Le
+          - Van-Linh Pham
+          - Thanh-Nam Vo
+          - Xuan Toan Mai
+          - Tuan-Anh Tran
+        publisher: "WACV 2026 (Oral, Award Finalist)"
+        releaseDate: 2026
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Formerge: Recover Spanning Cells in Complex Table Structure Using Transformer Network"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Nam Quan Nguyen
+          - Anh-Duy Le
+          - Anh Khoa Lu
+          - Xuan Toan Mai
+          - Tuan-Anh Tran
+        publisher: "ICDAR 2023 (Poster)"
+        releaseDate: 2023
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: A Hybrid Vision Transformer Approach for Mathematical Expression Recognition
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Anh-Duy Le
+          - Van-Linh Pham
+          - Vinh-Loi Ly
+          - Nam Quan Nguyen
+          - Huu Thang Nguyen
+          - Tuan-Anh Tran
+        publisher: "DICTA 2022 (Oral)"
+        releaseDate: 2022
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Awards:
+      - title: Recognition of individuals for excellent achievements in Science and Technology activities
+        date: 2025
+        awarder: Viettel AI
+          
+      - title: Runner up at ICDAR Competition on Artistic Text Recognition
+        date: 2024
+        awarder: ICDAR
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - title: Runner up at Automatic Speech Recognition tasks - Viettel Hearted AI Challenges
+        date: 2023
+        awarder: Viettel
 
-      - name: English
-        summary: "Fluent"
+      - title: Recognition of individuals for excellent achievements in Science and Technology activities
+        date: 2022
+        awarder: Viettel AI
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Top 9/40 AICovidVN 115M Challenge: Covid Cough Detection Challenge (Final Round)"
+        date: 2021
+        awarder: AICovidVN
+
+      - title: Student of Five Merits Scholarship
+        date: 2019
+        awarder: VNU-HCM University of Technology
+
+      - title: Academic Encouragement Scholarship
+        date: 2018
+        awarder: VNU-HCM University of Technology
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: "NVIDIA-Certified Professional: Accelerated Data Science"
+        # date: ""
+        issuer: NVIDIA
+        url: https://www.credly.com/badges/300cc571-2227-4765-8b80-1356f7245c6f/public_url
+        icon: fa-solid fa-certificate
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Google Cloud Professional Machine Learning Engineer
+        # date: ""
+        issuer: Google Cloud
+        url: https://www.credly.com/badges/5c0c3119-fd03-4a8f-a6d7-7352496c48f0/public_url
+        icon: fa-solid fa-certificate
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      # - name: VietAI Advanced Class in Computer Vision
+      #   # date: ""
+      #   issuer: VietAI
+      #   icon: fa-solid fa-certificate
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    Skills:
+      - name: Programming Languages
+        # level: ""
+        icon: fa-solid fa-code
+        keywords: "Python, C/C++, Java"
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Technologies
+        # level: ""
+        icon: fa-solid fa-gear
+        keywords: "PyTorch, TensorFlow, Google Cloud Platform, OpenCV, Scikit-learn, NumPy, Pandas, PyQT5, Matplotlib, Wandb, FastAPI, Git, Docker, Draw.io, LaTeX"
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Platforms
+        # level: ""
+        icon: fa-solid fa-desktop
+        keywords: "Linux, Windows"
+
+    Languages:
+      - name: English
+        summary: "Professional working proficiency"
+
+      - name: Vietnamese
+        summary: "Native speaker"
+
+    Volunteer:
+      - company: "Ho Chi Minh City 'Green Summer' Campaign"
+        position: Volunteer
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2018-07
+        end_date: 2018-08
+        summary: Participated in the city's annual youth volunteer campaign.
