@@ -6,10 +6,19 @@ cv:
   location: Ho Chi Minh City, Vietnam
   image: ""
   summary: >
-    AI researcher and engineer working at the intersection of generative modeling,
-    multimodal AI, and controllable visual generation. Research spans visual text
-    intelligence, OCR, handwriting recognition, mathematical expression recognition,
-    and one-shot handwriting generation using diffusion models.
+    I am an AI researcher and engineer working at the intersection of generative modeling,
+    multimodal AI, and controllable visual generation. My research began with visual text
+    intelligence—OCR, handwriting recognition, and mathematical expression recognition—and
+    has evolved toward generative modeling, with recent work on one-shot handwriting generation
+    using diffusion models. Alongside research, I have spent several years building production
+    AI systems at Viettel AI, spanning OCR, eKYC, document processing, and generative data
+    synthesis, which has shaped a research style focused on models that are both novel and
+    practically robust. I am now interested in compositional and controllable generative AI:
+    how generative models can compose multiple constraints at inference time, and how style,
+    content, and structure can be represented modularly through diffusion models, energy-based
+    models, and multimodal representations. My long-term goal is to contribute to generative
+    AI systems that are high-quality, controllable, interpretable, and useful across real-world
+    domains.
 
   social_networks:
     - network: GitHub
@@ -49,7 +58,7 @@ cv:
         end_date: ""
         summary: Build document AI workflows for technical document processing, including core document structure and layout analysis models.
         highlights:
-          - "Language/Framework: Python, PyTorch, FastAPI, Docker"
+          - "Language/Framework: Python, PyTorch, FastAPI, MLflow, Docker"
 
       - company: Viettel AI
         position: Senior AI Engineer
@@ -58,11 +67,11 @@ cv:
         end_date: ""
         summary: Led OCR projects for major insurance and banking clients. Core R&D member researching document understanding and generative modeling.
         highlights:
-          - Lead OCR projects for major insurance and banking clients, designing end-to-end systems with multiple models.
-          - Core R&D member researching document understanding and generative modeling, publishing at WACV and ICDAR.
+          - Lead OCR projects for major insurance and banking clients, designing and developing end-to-end systems with multiple models while ensuring performance, accuracy, and delivery from planning to deployment.
+          - Core R&D member of the team, researching new technologies in document understanding and generative modeling, applying findings to improve company products, and publishing research papers at top-tier conferences (WACV, ICDAR).
           - Mentor junior engineers on research methodology, experiment design, and engineering best practices.
-          - Drive technical decisions on model architecture and system design.
-          - "Language/Framework: Python, PyTorch, FastAPI, Huggingface Transformer, Docker, CI/CD, Latex"
+          - Drive technical decisions on model architecture and system design, collaborating with product and business teams to translate requirements into scalable AI solutions.
+          - "Language/Framework: Python, PyTorch, FastAPI, Wandb, LaTeX, Docker, CI/CD"
 
       - company: Viettel AI
         position: Junior AI Engineer
@@ -96,7 +105,7 @@ cv:
         location: Ho Chi Minh City, Vietnam
         start_date: 2019-08
         end_date: 2019-12
-        summary: Supported the lecturer in giving exam questions in Data Structure and Algorithm course.
+        summary: Assisted the lecturer in the Data Structures and Algorithms course by preparing exam questions, grading assignments, and providing tutoring support to undergraduate students.
 
     Publications:
       - title: "CONSTANT: Towards High-Quality One-Shot Handwriting Generation with Patch Contrastive Enhancement and Style-Aware Quantization"
@@ -186,7 +195,7 @@ cv:
       - name: Technologies
         # level: ""
         icon: fa-solid fa-gear
-        keywords: "PyTorch, TensorFlow, Google Cloud Platform, OpenCV, Scikit-learn, NumPy, Pandas, PyQT5, Matplotlib, Wandb, FastAPI, Git, Docker, Draw.io, LaTeX"
+        keywords: "PyTorch, TensorFlow, Google Cloud Platform, OpenCV, NumPy, Scikit-learn, Pandas, Matplotlib, PyQT5, Wandb, FastAPI, Git, Draw.io, Docker, LaTeX"
 
       - name: Platforms
         # level: ""
