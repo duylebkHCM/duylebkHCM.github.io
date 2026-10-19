@@ -6,19 +6,14 @@ cv:
   location: Ho Chi Minh City, Vietnam
   image: ""
   summary: >
-    I am an AI researcher and engineer working at the intersection of generative modeling,
-    multimodal AI, and controllable visual generation. My research began with visual text
-    intelligence—OCR, handwriting recognition, and mathematical expression recognition—and
-    has evolved toward generative modeling, with recent work on one-shot handwriting generation
-    using diffusion models. Alongside research, I have spent several years building production
-    AI systems at Viettel AI, spanning OCR, eKYC, document processing, and generative data
-    synthesis, which has shaped a research style focused on models that are both novel and
-    practically robust. I am now interested in compositional and controllable generative AI:
-    how generative models can compose multiple constraints at inference time, and how style,
-    content, and structure can be represented modularly through diffusion models, energy-based
-    models, and multimodal representations. My long-term goal is to contribute to generative
-    AI systems that are high-quality, controllable, interpretable, and useful across real-world
-    domains.
+    My research began with recognizing content and two-dimensional structure in documents, and
+    my current document VLM work extends that foundation in multimodal understanding. In one-shot
+    handwriting generation, I learned discrete writer-style concepts from a single reference image
+    to guide text-conditioned diffusion, motivating my interest in composing visual concepts from
+    few examples. I want to build generative models that use vision-language understanding to
+    interpret a creator's intent from language, sketches, reference images, and iterative feedback.
+    My PhD goal is personalized image and video generation with control over composition,
+    appearance, and motion while preserving identity and temporal consistency.
 
   social_networks:
     - network: GitHub
@@ -31,7 +26,7 @@ cv:
       - institution: VNU-HCM University of Technology
         location: Ho Chi Minh City, Vietnam
         area: Computer Science
-        studyType: Master of Computer Science
+        studyType: Master of Engineering in Computer Science
         start_date: 2021-08
         end_date: 2023-11
         highlights:
@@ -53,11 +48,13 @@ cv:
     Experience:
       - company: Drimco AI
         position: AI Engineer
-        location: Ho Chi Minh City, Vietnam
+        location: Remote from Ho Chi Minh City, Vietnam
         start_date: 2025-07
         end_date: ""
         summary: Build document AI workflows for technical document processing, including core document structure and layout analysis models.
         highlights:
+          - Developed a layout analysis solution for customer technical documents, combining an M2Doc-inspired multimodal detector with rule-based post-processing; achieved 0.90 mAP on an internal evaluation set of customer documents.
+          - Inspected predictions and analyzed errors in difficult layouts; experimented with fine-tuning document VLMs, including MinerU2.5 and dots.ocr, for layout analysis.
           - "Language/Framework: Python, PyTorch, FastAPI, MLflow, Docker"
 
       - company: Viettel AI
@@ -67,7 +64,9 @@ cv:
         end_date: ""
         summary: Led OCR projects for major insurance and banking clients. Core R&D member researching document understanding and generative modeling.
         highlights:
-          - Lead OCR projects for major insurance and banking clients, designing and developing end-to-end systems with multiple models while ensuring performance, accuracy, and delivery from planning to deployment.
+          - "For a Vietnamese document VLM project, built training-data pipelines: deployed a tagging system across 500,000+ real images and produced approximately 500,000 synthetic documents with parsing and layout annotations."
+          - Fine-tuned and evaluated EAGLE-3 and DFlash speculative decoders on internal document data; the best setup achieved 4.2× lower latency than baseline Qwen3-VL-4B on B200, with unchanged internal OmniDocBench-style overall score.
+          - Led a three-person team developing text recognition models on 10M+ samples for banking, insurance, and legal documents; achieved 98% accuracy on an internal evaluation set covering scans and camera captures, and delivered OCR systems through production deployment.
           - Core R&D member of the team, researching new technologies in document understanding and generative modeling, applying findings to improve company products, and publishing research papers at top-tier conferences (WACV, ICDAR).
           - Mentor junior engineers on research methodology, experiment design, and engineering best practices.
           - Drive technical decisions on model architecture and system design, collaborating with product and business teams to translate requirements into scalable AI solutions.
@@ -107,6 +106,20 @@ cv:
         end_date: 2019-12
         summary: Assisted the lecturer in the Data Structures and Algorithms course by preparing exam questions, grading assignments, and providing tutoring support to undergraduate students.
 
+    Projects:
+      - name: "CONSTANT: One-Shot Handwriting Generation (Apr. 2024 – Apr. 2025)"
+        summary: "Viettel AI; advisor: Tuan-Anh Tran; first-author research"
+        highlights:
+          - Addressed the difficulty of recovering a new writer's style from a single, potentially noisy sample. Proposed Style-Aware Quantization, which learns discrete visual style concepts instead of relying on fixed high-frequency features, with a contrastive objective to separate writers.
+          - Introduced a multiscale latent patch contrastive objective that aligns generated and target patches during diffusion training, sharpening local stroke details in a single-stage framework.
+          - On the IAM test set, SAQ reduced FID from 16.73 to 12.47; the full model reached FID 10.20 / HWD 0.74, respectively 36% / 30% lower than One-DM. Evaluated on English, Chinese, and Vietnamese handwriting.
+
+      - name: "Hybrid Vision Transformer for Mathematical Expression Recognition (Jun. 2022 – Jun. 2023)"
+        summary: "HCMUT; advisor: Tuan-Anh Tran; master's research"
+        highlights:
+          - Addressed long-range symbol relationships and missed or repeated symbols in formula parsing using a hybrid CNN–ViT encoder with 2D positional encoding and a coverage-attention decoder; achieved 89.94 BLEU-4 and 86.48% image exact match without spaces on IM2LATEX-100K.
+          - "Extended the paper in my master's thesis by designing LIMD, a 1,564,755-pair image–LaTeX dataset, and building its collection, normalization, rendering, and outlier-filtering pipeline. [[Thesis]](https://doi.org/10.5281/zenodo.20427923)"
+
     Publications:
       - title: "CONSTANT: Towards High-Quality One-Shot Handwriting Generation with Patch Contrastive Enhancement and Style-Aware Quantization"
         authors:
@@ -140,6 +153,10 @@ cv:
         releaseDate: 2022
 
     Awards:
+      - title: Award Finalist, WACV 2026
+        date: 2026
+        awarder: IEEE/CVF WACV
+
       - title: Recognition of individuals for excellent achievements in Science and Technology activities
         date: 2025
         awarder: Viettel AI
@@ -165,7 +182,7 @@ cv:
         awarder: VNU-HCM University of Technology
 
       - title: Academic Encouragement Scholarship
-        date: 2018
+        date: 2018–2019
         awarder: VNU-HCM University of Technology
 
     Certificates:
@@ -195,7 +212,7 @@ cv:
       - name: Technologies
         # level: ""
         icon: fa-solid fa-gear
-        keywords: "PyTorch, TensorFlow, Google Cloud Platform, OpenCV, NumPy, Scikit-learn, Pandas, Matplotlib, PyQT5, Wandb, FastAPI, Git, Draw.io, Docker, LaTeX"
+        keywords: "Diffusion models, vision-language models, PyTorch, vLLM, MLflow, TensorFlow, Google Cloud Platform, OpenCV, NumPy, Scikit-learn, Pandas, Matplotlib, PyQT5, Wandb, FastAPI, Git, Draw.io, Docker, LaTeX"
 
       - name: Platforms
         # level: ""
