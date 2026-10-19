@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Academic portfolio site for A.D (David) Le, built on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme. Deployed to `https://duylebkHCM.github.io` via GitHub Pages (gh-pages branch).
 
+## Source of Truth for Profile Content
+
+Before making **any** update to the personal website content (about, CV, publications, news, projects, etc.), always first check `G:\My Drive\My Research Resource Centralize\PhD apply resource` for the newest version of the profile (CV, research statement, publications, bio). Sync the site with the latest information found there, and flag any discrepancies to the user.
+
 ## Build & Dev Commands
 
 ```bash
