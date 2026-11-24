@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: A.D (David) Le # the website title (if blank, full name will be used instead)
+title: Anh-Duy (David) Le # the website title (if blank, full name will be used instead)
 first_name: Anh
-middle_name: Duy  
+middle_name: Duy
 last_name: Le
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
@@ -280,7 +280,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Le]
-  first_name: [Anh Duy, AD]
+  first_name: [Anh Duy, Anh-Duy, AD]
 
   style: apa
   locale: en

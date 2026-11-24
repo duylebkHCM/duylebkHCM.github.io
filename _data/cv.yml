@@ -1,19 +1,22 @@
 cv:
-  name: Le Anh Duy
+  name: Anh-Duy Le
   label: AI Researcher & Engineer
   email: leanhduy497@gmail.com
   phone: "(+84) 349749495"
   location: Ho Chi Minh City, Vietnam
   image: ""
   summary: >
-    My research began with recognizing content and two-dimensional structure in documents, and
-    my current document VLM work extends that foundation in multimodal understanding. In one-shot
-    handwriting generation, I learned discrete writer-style concepts from a single reference image
-    to guide text-conditioned diffusion, motivating my interest in composing visual concepts from
-    few examples. I want to build generative models that use vision-language understanding to
-    interpret a creator's intent from language, sketches, reference images, and iterative feedback.
-    My PhD goal is personalized image and video generation with control over composition,
-    appearance, and motion while preserving identity and temporal consistency.
+    My research began with recognizing content and two-dimensional structure in documents, and my current
+    document VLM work extends that foundation in multimodal understanding. In one-shot handwriting generation,
+    I developed a text-conditioned diffusion model that represents writer style through learned discrete
+    concepts and generates handwriting from a single reference image, motivating my interest in composing
+    visual concepts from few examples. I want to build multimodal generative models that infer abstract
+    concepts, such as intent, style, emotion, and structure, from their inputs, generalize to unseen
+    combinations of them, and let users revise one condition, such as appearance or motion in image and
+    video generation, while preserving the others. For
+    example, given music and a script, such a model should express the music's mood in the video's
+    atmosphere while the characters and actions follow the script, so that replacing the music changes
+    the mood but not the story.
 
   social_networks:
     - network: GitHub
@@ -53,7 +56,7 @@ cv:
         end_date: ""
         summary: Build document AI workflows for technical document processing, including core document structure and layout analysis models.
         highlights:
-          - Developed a layout analysis solution for customer technical documents, combining an M2Doc-inspired multimodal detector with rule-based post-processing; achieved 0.90 mAP on an internal evaluation set of customer documents.
+          - Developed a layout analysis solution for customer technical documents, combining an M2Doc-inspired multimodal detector with rule-based layout refinement; achieved 0.90 mAP@[0.5:0.95] on an internal customer-document evaluation set.
           - Inspected predictions and analyzed errors in difficult layouts; experimented with fine-tuning document VLMs, including MinerU2.5 and dots.ocr, for layout analysis.
           - "Language/Framework: Python, PyTorch, FastAPI, MLflow, Docker"
 
@@ -65,8 +68,9 @@ cv:
         summary: Led OCR projects for major insurance and banking clients. Core R&D member researching document understanding and generative modeling.
         highlights:
           - "For a Vietnamese document VLM project, built training-data pipelines: deployed a tagging system across 500,000+ real images and produced approximately 500,000 synthetic documents with parsing and layout annotations."
-          - Fine-tuned and evaluated EAGLE-3 and DFlash speculative decoders on internal document data; the best setup achieved 4.2× lower latency than baseline Qwen3-VL-4B on B200, with unchanged internal OmniDocBench-style overall score.
-          - Led a three-person team developing text recognition models on 10M+ samples for banking, insurance, and legal documents; achieved 98% accuracy on an internal evaluation set covering scans and camera captures, and delivered OCR systems through production deployment.
+          - Fine-tuned and evaluated EAGLE-3 and DFlash speculative decoders on internal document data; the best setup achieved a 4.2× inference speedup over baseline Qwen3-VL-4B on B200, with unchanged internal OmniDocBench-style overall score.
+          - Independently developed text recognition models using 10M+ training samples; achieved 98% normalized-edit-distance-based accuracy on an internal evaluation set covering scans and camera captures of banking, insurance, and legal documents.
+          - Led a three-person team delivering OCR projects, from system design and integration to production deployment.
           - Core R&D member of the team, researching new technologies in document understanding and generative modeling, applying findings to improve company products, and publishing research papers at top-tier conferences (WACV, ICDAR).
           - Mentor junior engineers on research methodology, experiment design, and engineering best practices.
           - Drive technical decisions on model architecture and system design, collaborating with product and business teams to translate requirements into scalable AI solutions.
@@ -128,7 +132,7 @@ cv:
           - Thanh-Nam Vo
           - Xuan Toan Mai
           - Tuan-Anh Tran
-        publisher: "WACV 2026 (Oral, Award Finalist)"
+        publisher: "WACV 2026 (Oral, Best Paper Award Finalist)"
         releaseDate: 2026
 
       - title: "Formerge: Recover Spanning Cells in Complex Table Structure Using Transformer Network"
@@ -153,14 +157,14 @@ cv:
         releaseDate: 2022
 
     Awards:
-      - title: Award Finalist, WACV 2026
+      - title: Best Paper Award Finalist, WACV 2026
         date: 2026
         awarder: IEEE/CVF WACV
 
       - title: Recognition of individuals for excellent achievements in Science and Technology activities
         date: 2025
         awarder: Viettel AI
-          
+
       - title: Runner up at ICDAR Competition on Artistic Text Recognition
         date: 2024
         awarder: ICDAR
